@@ -1,110 +1,125 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Justin's Personal Site</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!-- Intro  -->
-        <table  cellspacing="10px">
-            <tr>
-                <td>
-                    <img src="images/justin-profile-cropped-resized.png" alt="Justin profile picture">
-                </td>
-                <td>
-                    <h1>Justin Allen</h1>
-                    <p><em>Full Stack Developer </em><strong>Student</strong>!</p>
-                    <p>I am an I.T. professional that is learning to become a full stack developer.</p>
-                </td>
-            </tr>
-        </table>        
-        
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Allen - Resume</title>
+</head>
+
+<body>
+    <main>
+        <hr>
+        <!-- Header -->
+        <header>
+            <h1>Justin Allen</h1>
+            <p>Email: <a href="mailto:jdallen1990@yahoo.com">jdallen1990@yahoo.com</a></p>
+            <p>Cell: (713)-906-1564</p>
+        </header>
+
         <hr>
 
-        <!-- Education -->
-        <h3>Education</h3>
-        <ul>
-            <li>2013 - 2015 <b>University of Houston Clear Lake</b> - Bachelor, Information Technology</li>
-            <li>2011 - 2013 <b>University of Houston</b> - Computer Science Major</li>
-        </ul> 
+        <!-- Summary -->
+        <section>
+            <h2>Summary</h2>
+            <p>Highly motivated full stack developer who’s self driven and is always learning.</p>
+        </section>
+
+        <hr>
+
+        <!-- Technical Skills -->
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><b>Programming Languages: </b>HTML, CSS, Javascript, VB.Net, SQL, C#, Python</li>
+                <li><b>Frameworks: </b>Bootstrap, Dapper</li>
+                <li><b>Software Tools: </b>SQL Server Management Studio, SQL Server Reporting Services, Visual Studio ,
+                    Visual Studio Code</li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section>
+            <h2>Projects</h2>
+            <!-- Project 1 -->
+            <div class="project">
+                <h3>Project 1 Name</h3>
+                <p>Prject Description</p>
+                <div class="project-links">
+                    <a href="#">Source Code</a>
+                    <a href="#">Live</a>
+                </div>
+            </div>
+            <!-- end Project 1 -->
+
+            <!-- Project 2 -->
+            <div class="project">
+                <h3>Project 2 Name</h3>
+                <p>Prject Description</p>
+                <div class="project-links">
+                    <a href="#">Source Code</a>
+                    <a href="#">Live</a>
+                </div>
+            </div>
+            <!-- end Project 2 -->
+        </section>
 
         <hr>
 
         <!-- Work Experience -->
-        <h3>Work Experience</h3>
-        <table  cellspacing="10px">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Job Title</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Jul 2015 - Present</td>
-                    <td>IT Technician</td>
-                </tr>
-                <tr>
-                    <td>Dec 2013 - Jul 2015</td>
-                    <td>Career Development Trainee</td>
-                </tr>
-                <tr>
-                    <td>Jun 2010 - Dec 2013</td>
-                    <td>Intern/Records Officer Assitant</td>
-                </tr>
-            </tbody>
-        </table>
+        <section>
+            <h2>Work Experience</h2>
 
-        <hr>
+            <!-- Work Experience 1 -->
+            <div>
+                <h3 class="job-title">IT Technician</h3>
+                <p class="job-date">Jul 2015 - Present</p>
+                <ul class="job-description">
+                    <li>Analyzes user requirements to translate into database and application requirements.</li>
+                    <li>Plan, develop, and implement data migrations.</li>
+                    <li>Create and/or update desktop applications to help support daily or monthly tasks.</li>                    
+                    <li>Design and maintain SQL queries and routines.</li>                    
+                    <li>Perform maintenance and backup activities to maintain the integrity of the I.T. infrastructure.</li>
+                    <li>Provide technical support and training when needed.</li>
+                    <li>Develop specialized reports as requested.</li>
+                    <li>Prepare and support customer monthly billing files, and database reports.</li>                    
+                </ul>
+            </div>
+            <!-- End Work Experience 1 -->
 
-        <!-- Skills -->
-        <h3>Skills</h3>
-        <table>
-           <tr>
-               <!-- Col 1 -->
-               <td>                    
-                    <table cellspacing="10px">
-                        <tr>
-                            <td> Desktop Support </td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td> SQL Development </td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Web Development</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                    </table>
-               </td>
+            <!-- Work Experience 2 -->
+            <div>
+                <h3 class="job-title">Career Development Trainee</h3>
+                <p class="job-date">Dec 2013 - Jul 2015</p>
+                <ul class="job-description">
+                    <li>Primary responsibilities include providing help-desk and end-user support based on ticket
+                        system.</li>
+                    <li>Troubleshoot, configure hardware, software installation and updates, imaging and desktop.</li>
+                    <li>Data Entry, Inventory and other duties as assigned.</li>
+                </ul>
+            </div>
+            <!-- End Work Experience 2 -->
 
-               <!-- Col 2 -->
-               <td>
-                <table  cellspacing="10px">
-                    <tr>
-                        <td>Server Administration</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td> VB.Net Development </td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>SSRS Development</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-               </td>
-           </tr>
-        </table>
-        <hr>
+            <!-- Work Experience 3 -->
+            <div>
+                <h3 class="job-title">Records Officer Assitant</h3>
+                <p class="job-date">Jun 2010 - Dec 2013</p>
+                <ul class="job-description">
+                    <li>Provided Excel data entry, desktop hardware configuration, desktop deployment, and software installation.</li>
+                    <li>Assisted in the implementation of electronic records software system for intranet and for executive management.</li>
+                    <li>Managed MS Access database, created PowerPoint presentations, assisted with inventory.</li>
+                </ul>
+            </div>
+            <!-- End Work Experience 3 -->
+        </section>
 
-        <!-- Links  -->
-        <a href="hobbies.html">My Hobbies</a> <a href="contact.html">Contact Me</a>
-    </body>
+        <!-- Education -->
+        <section>
+            <h2>Education</h2>
+            <h3>University of Houston Clear Lake</h3>
+            <p>Bachelor's Degree, Information Technology</p>
+        </section>
+    </main>
+</body>
+
 </html>
