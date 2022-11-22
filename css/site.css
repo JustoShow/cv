@@ -8,8 +8,8 @@ font-family: 'Roboto Condensed', sans-serif;
 body {
     /* background-color: #cfd3ce; */
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 3% 5%;
     color: #444;
+    font-size: 1.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,6 +39,14 @@ hr {
     border-color:#d8d8d8;
 }
 
+/* Container */
+
+.container {
+    background-color: #fff;  
+    width: 80%;  
+    margin: 0 auto;
+}
+
 /* Headings */
 
 .section-heading {
@@ -46,13 +54,6 @@ hr {
     color: white;
     padding: 2% 0;
     font-size: 1.75rem;
-}
-
-
-/* Container */
-
-.container {
-    background-color: #fff;    
 }
 
 .section-container {
@@ -71,6 +72,18 @@ hr {
 
 .header-link {
     margin: auto 5%;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    
+}
+
+.skills-title {
+
 }
 
 /* Projects */
